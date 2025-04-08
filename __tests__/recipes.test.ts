@@ -30,6 +30,11 @@ describe("Recipes API Endpoints", () => {
 
     expect(res.body.data.ingredients).toBeTruthy();
 
+
+    expect(res.body.data.cookingTime).toBeTruthy();
+
+
+
     // The data object must have an instructions string
 
     expect(res.body.data.instructions).toBeTruthy();
